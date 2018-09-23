@@ -5,7 +5,8 @@ Install Ruby (depends on your OS)
 Install rspec (gem install rspec)
 
 You can then run the tests with rspec ruby_spec.rb  
-It SHOULD fail!  This is good.  make the first failure pass by changing the  
+It SHOULD fail!  This is good.  
+Make the first failure pass by changing the  
     answers_without_answers.rb file
 
 For the first answer one change:
@@ -19,8 +20,7 @@ to be
       5
     end
 
-Now, when you do rspec ruby_spec.rb the next test down will fail...
-
-keep repeating 'fix the method' until all the tests pass!
+Now, when you do rspec ruby_spec.rb the next test down will fail...  
+Keep repeating 'fix the method' until all the tests pass!  
 
 You've now learned basic Ruby and TDD while you were at it!
