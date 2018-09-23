@@ -4,9 +4,10 @@ Ruby Learning by using TDD - Test Driven Development
 Install Ruby (depends on your OS)  
 Install rspec (gem install rspec)
 
-You can then run the tests with rspec ruby_spec.rb  
+You can then run the tests with `rspec ruby_spec.rb`  
 It SHOULD fail!  This is good.  
-Make the first failure pass by changing the  
+Make the first failure pass by changing the
+
     answers_without_answers.rb file
 
 For the first answer change:
