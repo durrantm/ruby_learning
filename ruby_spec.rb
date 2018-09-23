@@ -54,25 +54,25 @@ describe "Ruby education" do
   it "Example_B1 - if all elements are MA, return true" do
     array = %w(MA MA MA)
     result = answer_B1(array) # if all elements are 'MA'
-    expect(result).to be true
+    expect(result).to be true  # improve so that answer can't just be return true !
   end
 
   it "Example_B2 - if all elements are true for <block of code>, return true" do
     array = ['MA 02140', 'MA 02142']
     result = answer_B2(array) # if all elements start with MA
-    expect(result).to be true
+    expect(result).to be true # improve so that answer can't just be return true !
   end
 
   it "Example_B3 - if any element meets condition, return true" do
     array = [1,2,3,9,10]
     result = answer_B3(array) # if 9 is any of the elements
-    expect(result).to be true
+    expect(result).to be true # improve so that answer can't just be return true !
   end
 
   it "Example_B4 - if any element is equal to Jane or Fred or Frank, return true" do
     array = %w(Mary Bob Fred Joe Jane Mark Marc)
     result = answer_B4(array) # if Jane or Fred or Frank is any of the elements
-    expect(result).to be true
+    expect(result).to be true # improve so that answer can't just be return true !
   end
 
   it "Example_B5 - How many elements meets condition?" do
