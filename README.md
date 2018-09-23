@@ -9,7 +9,7 @@ It SHOULD fail!  This is good.
 Make the first failure pass by changing the  
     answers_without_answers.rb file
 
-For the first answer one change:
+For the first answer change:
 
     def answer_A1
     end
