@@ -144,7 +144,7 @@ describe "Ruby education" do
   it "Example_B16 - if the element exists anywhere in the array, return true" do
     array = [1,2,3,9,10]
     result = answer_B16(array) # The result we expect from the operation
-    expect(result).to be true
+    expect(result).to be true # improve so that answer can't just be return true !
   end
 
   it "Example_B17 - Add up all the numbers, return total" do
@@ -198,13 +198,13 @@ describe "Ruby education" do
   it "Example_B25 - if no element matches condition that it equals 799, return true" do
     array = [617,508,413]
     result = answer_B25(array) # The result we expect from the operation
-    expect(result).to be true
+    expect(result).to be true # improve so that answer can't just be return true !
   end
 
   it "Example_B26 - if *exactly* one element meets condition (= 199), return true" do
     array = [1,2,3,109,199,10]
     result = answer_B26(array) # The result we expect from the operation
-    expect(result).to be true
+    expect(result).to be true # improve so that answer can't just be return true !
   end
 
   it "Example_B27 - sum of elements" do
@@ -249,7 +249,7 @@ describe "Ruby education" do
 
   it "Example_B34 - The concept of a student exist" do
     result = answer_B34 # The result we expect from the operation
-    expect(Student).to be
+    expect(Student).to be # improve so that answer can't just be return true !
   end
 
   it "Example_B35 - a school has a state of MA" do
